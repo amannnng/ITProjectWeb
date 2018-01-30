@@ -1,0 +1,67 @@
+body{
+	padding-left: 10%;
+	padding-right: 10%;
+	background-color:#092784;
+}
+#top{
+	background-image:url(../Images/Capture1.PNG);
+	background-color:#001237;
+	height: 60px;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+#line{
+	background-color:#D85216;
+	height: 5px;
+}
+#heading{
+	width: auto;
+	background-image:url(../Images/ban_top_main.jpg);
+	background-size: 100% 130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:115px;
+	font-size: x-large;
+	}
+nav li{
+	list-style-type:none;
+	float:left;
+	display:block;
+	width:25%;
+	height:auto;
+	text-align:center;
+	line-height:50px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:19px;
+	}
+
+nav li a{	
+	background-color: black;
+	display:block;
+	text-decoration:none;
+	color:#FFFFFF;
+	}
+nav li :hover{
+	height:55px;
+	background-color:#FFFFFF;
+	}
+nav li:hover a{
+	display:block;
+	color:#000;
+	}
+
+#slate{
+	width: auto;
+	background-image:url(../Images/image003.jpg);
+	background-size: 100% 130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:360px;
+	font-size: x-large;
+	}
+#footer{
+	background-color: #001237;
+	float: left;
+	width:100%;
+}
+
