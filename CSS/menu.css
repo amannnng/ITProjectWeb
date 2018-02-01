@@ -1,7 +1,8 @@
 body{
 	padding-left: 10%;
 	padding-right: 10%;
-	background-color:#092784;
+	background-color:#093968;
+	width: 850px;
 }
 #top{
 	background-image:url(../Images/Capture1.PNG);
@@ -9,6 +10,7 @@ body{
 	height: 60px;
 	background-repeat: no-repeat;
 	background-position: left;
+	width: 850px;
 }
 #line{
 	background-color:#D85216;
@@ -20,7 +22,7 @@ body{
 	background-size: 100% 130%;
 	background-repeat: no-repeat;
 	background-position: center;
-	height:115px;
+	height: auto;
 	font-size: x-large;
 	}
 nav li{
@@ -42,7 +44,6 @@ nav li a{
 	color:#FFFFFF;
 	}
 nav li :hover{
-	height:55px;
 	background-color:#FFFFFF;
 	}
 nav li:hover a{
@@ -59,9 +60,9 @@ nav li:hover a{
 	height:360px;
 	font-size: x-large;
 	}
-#footer{
-	background-color: #001237;
-	float: left;
-	width:100%;
-}
 
+p.footer-contact, p.footer-contact a{
+	font-size:90%; 
+	margin-top:2px;
+	color:#eee;
+	}
