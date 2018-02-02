@@ -14,9 +14,12 @@ permissions:
 hooks:
    BeforeInstall:
     - location: scripts/installapache.sh
+      timeout: 300
       runas: root
     - location: scripts/startapache.sh
+      timeout: 300
       runas: root
    AfterInstall:
     - location: scripts/restartapache.sh
+      timeout: 300
       runas: root
