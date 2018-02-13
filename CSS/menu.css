@@ -60,6 +60,16 @@ nav li:hover a{
 	height:360px;
 	font-size: x-large;
 	}
+#slate0{
+	width: auto;
+	background-image:url(../Images/21.jpeg);
+	background-size: 100% 130%;
+	background-repeat: no-repeat;
+	background-position: center;
+	height:360px;
+	font-size: x-large;
+	}
+
 
 p.footer-contact, p.footer-contact a{
 	font-size:90%; 
